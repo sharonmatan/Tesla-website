@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+
+.bigmenu {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 10px;
+  width: 100vw;
+  display: inline-block;
+  padding-top: 12px;
+  position: relative;
+}
+
+.word:hover,
+.rightmenu:hover {
+  color: rgb(83, 78, 78);
+}
+
+.button.button3:hover {
+  background-color: whitesmoke;
+  color: rgb(19, 2, 2);
+}
+
+.hamburger {
+  height: 32px;
+  width: 26px;
+  display: inline-block;
+  position: absolute;
+  right: 1vw;
+  margin-right: 14px;
+  padding-bottom: 15px;
+  top: 44%;
+}
+
+.teslalogo {
+  color: white;
+  padding-right: 150px;
+  padding-left: 20px;
+}
+
+.menuword {
+  margin: 2px;
+  padding-right: 80px;
+  text-align: center;
+  display: inline-block;
+}
+
+.word {
+  display: inline-block;
+  padding-right: 17px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.up {
+  display: inline-block;
+}
+
+.rightmenu {
+  display: inline-block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding-right: 10px;
+  margin-left: 15px;
+}
+
+.threepoints.mid {
+  background-color: whitesmoke;
+  border: whitesmoke 2px solid;
+}
+
+.threepoints {
+  background-color: black;
+  border: rgb(187, 181, 181) 2px solid;
+  text-align: center;
+  display: inline-block;
+  height: 10.5px;
+  width: 10.5px;
+  border-radius: 80px;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  top: 71vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.ups {
+  right: 34px;
+  margin: auto;
+}
+
+.mids {
+  background-color: whitesmoke;
+}
+
+.downs {
+  left: 34px;
+  margin: auto;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover {
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 15vh;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  right: 0;
+  left: 0;
+}
+
+h3,
+h2 {
+  color: white;
+  font-size: 13.8px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  position: absolute;
+  top: 200px;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  right: 0;
+  left: 0;
+}
+
+h5 {
+  white-space: nowrap;
+  position: absolute;
+  top: 87vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(19, 2, 2);
+  padding: 11px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px 10px;
+  border-radius: 80px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.buttonplace {
+  position: absolute;
+  top: 144px;
+  text-align: center;
+  white-space: nowrap;
+  right: 0;
+  left: 0;
+}
+
+.button.button3 {
+  background-color: initial;
+  border: 3px whitesmoke solid;
+  color: whitesmoke;
+}
+
+.sidebutton {
+  background-color: rgb(172, 167, 167);
+  border: none;
+  padding: 12px 1px;
+  margin: 4px 4px;
+  cursor: pointer;
+  width: 0.1px;
+  margin-left: 15px;
+  height: 4px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 23.6px;
+  white-space: nowrap;
+}
+
+.bottomsentence {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cover.cover2 {
+  background-image: url("cover2.jpg");
+  position: relative;
+}
+
+.cover3 {
+  background-image: url("cover3.png");
+  position: relative;
+}
+
+.cover4 {
+  background-image: url("cover4.jpg");
+  position: relative;
+}
+
+.downdown {
+  position: absolute;
+  top: 16vh;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  right: 0;
+  left: 0;
+}
+
+h2 {
+  font-size: 18px;
+  top: 24.8vh;
+  font-family: monospace;
+}
+
+.h22 {
+  position: absolute;
+  top: 20.4vh;
+}
+
+.godown {
+  position: absolute;
+  top: 19.8vh;
+}
+
+.goup {
+  position: absolute;
+  top: 16.3vh;
+}
+
+.downer {
+  height: 40px;
+  width: 30px;
+  padding-top: 15px;
+  position: absolute;
+  text-align: center;
+  top: 91vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.more {
+  position: absolute;
+  text-align: center;
+  top: 70vh;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+}
+
+.more1 {
+  position: absolute;
+  text-align: center;
+  top: 33vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.menuword1 {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
+  text-align: center;
+  position: absolute;
+  top: 80vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  background-color: white;
+  padding: 60px 10px;
+  display: inline-block;
+}
+
+.word1 {
+  display: inline-block;
+  padding-right: 14px;
+  color: rgb(36, 22, 22);
+  text-decoration: none;
+}
+
+@media (max-width: 1266px) {
+  .up2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1066px) {
+  .word {
+    display: none;
+  }
+}
+
+@media (max-width: 840px) {
+  .buttonplace {
+    top: 70vh;
+  }
+
+  .more1 {
+    top: 72vh;
+  }
+
+  .threepoints {
+    top: 33vh;
+  }
+
+  h3 {
+    top: 85vh;
+  }
+
+  h5 {
+    top: 90vh;
+    white-space: initial;
+  }
+
+  .downer {
+    display: none;
+  }
+
+  .cover2 .downer,
+  .cover3 .downer {
+    display: block;
+    top: 66vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .teslalogo {
+    padding-top: 17px;
+  }
+
+  .button.button3,
+  .button.button1 {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .buttonplace {
+    top: 65vh;
+    left: 15vw;
+    text-decoration: none;
+  }
+
+  .threepoints {
+    top: 25vh;
+  }
+
+  .cover2 .downer,
+  .cover3 .downer {
+    display: none;
+  }
+}
